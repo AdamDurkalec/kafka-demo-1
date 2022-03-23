@@ -1,0 +1,25 @@
+﻿{
+  "type": "record",
+  "name": "MyLogEvent",
+  "namespace": "demo.kafka",
+  "fields": [
+    {
+      "name": "LogMessage",
+      "type": "string"
+    },
+    {
+      "name": "OccurenceTimeStamp",
+      "type": "long",
+      "doc": "Occurence UTC time stamp in miliseconds",
+      "logicalType": "timestamp-millis"
+    },
+    {
+      "name": "LogLevel",
+      "type": {
+        "name": "LogLevel",
+        "type": "enum",
+        "symbols": [ "Info", "Warning", "Debug", "Error" ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kafka-local-cluster", "Kafka-local-cluster", "{CA183E67-8E91-438D-A533-9180AC543E2B}"
+	ProjectSection(SolutionItems) = preProject
+		Kafka-local-cluster\docker-compose.yml = Kafka-local-cluster\docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kafka-schema", "Kafka-schema\Kafka-schema.csproj", "{E8ED9683-C440-4A26-8EAE-236185A69E57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kafka-consumer-avro", "Kafka-consumer-avro\Kafka-consumer-avro.csproj", "{A586826C-AEA9-4716-A3F9-C453BE04915A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kafka-consumer-string", "Kafka-consumer-string\Kafka-consumer-string.csproj", "{6C0BD6C8-DD62-47BA-BA9F-9FAC79E56AF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kafka-producer-avro", "Kafka-producer-avro\Kafka-producer-avro.csproj", "{69CCDF95-8FBD-49F4-972A-786336423024}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kafka-producer-string", "Kafka-producer-string\Kafka-producer-string.csproj", "{BD999523-93A6-4D31-BA20-90A37D0C19E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{13786AE3-62F0-4BF7-9064-A6C0A270431C}"
+	ProjectSection(SolutionItems) = preProject
+		start-kafka-consumer-avro.bat = start-kafka-consumer-avro.bat
+		start-kafka-consumer-string.bat = start-kafka-consumer-string.bat
+		start-kafka-producer-avro.bat = start-kafka-producer-avro.bat
+		start-kafka-producer-string.bat = start-kafka-producer-string.bat
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8ED9683-C440-4A26-8EAE-236185A69E57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8ED9683-C440-4A26-8EAE-236185A69E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8ED9683-C440-4A26-8EAE-236185A69E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8ED9683-C440-4A26-8EAE-236185A69E57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A586826C-AEA9-4716-A3F9-C453BE04915A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A586826C-AEA9-4716-A3F9-C453BE04915A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A586826C-AEA9-4716-A3F9-C453BE04915A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A586826C-AEA9-4716-A3F9-C453BE04915A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C0BD6C8-DD62-47BA-BA9F-9FAC79E56AF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0BD6C8-DD62-47BA-BA9F-9FAC79E56AF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C0BD6C8-DD62-47BA-BA9F-9FAC79E56AF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0BD6C8-DD62-47BA-BA9F-9FAC79E56AF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69CCDF95-8FBD-49F4-972A-786336423024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69CCDF95-8FBD-49F4-972A-786336423024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69CCDF95-8FBD-49F4-972A-786336423024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69CCDF95-8FBD-49F4-972A-786336423024}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD999523-93A6-4D31-BA20-90A37D0C19E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD999523-93A6-4D31-BA20-90A37D0C19E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD999523-93A6-4D31-BA20-90A37D0C19E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD999523-93A6-4D31-BA20-90A37D0C19E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2926C6D8-0068-4A8C-89C4-84A21A5CAFBE}
+	EndGlobalSection
+EndGlobal
